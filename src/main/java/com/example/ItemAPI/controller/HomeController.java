@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-public class Homecontroller {
+public class HomeController {
 
     @GetMapping("/")
     public String home() {
